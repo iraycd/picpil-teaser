@@ -1,0 +1,510 @@
+body{
+  background:#eceef1;
+}
+
+#header_container {
+    color: rgb(54, 57, 69);
+    width: 100%;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal normal 16px/normal "Raleway", Helvetica, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}/*#textbox*/
+
+#wgh {
+    color: rgb(54, 57, 69);
+    height: 130px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    z-index: 2;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 16px/normal "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+    left: 10%;
+    right: 10%;
+}/*#DIV_2*/
+
+#wgh_level_1 {
+    color: rgb(54, 57, 69);
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 13px/40px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}/*#DIV_3*/
+
+#wgh_level_2 {
+    color: rgb(54, 57, 69);
+    height: 90px;
+    min-width: 100%;
+    text-align: center;
+    width: 100%;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 17px/90px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}
+#wgh_inner_container {
+    color: rgb(54, 57, 69);
+    height: 40px;
+    width: 100%;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 13px/40px "Raleway", Verdana, sans-serif;
+    margin: 0px auto;
+    outline: rgb(54, 57, 69) none 0px;
+}/*#wgh_inner_container*/
+
+
+
+#top_nav {
+    color: rgb(54, 57, 69);
+    display: inline-block;
+    height: 40px;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 431px;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 13px/40px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}/*#top_nav*/
+
+#top_nav a {
+    color: #9ba4b1;
+    display: inline-block;
+    height: 40px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 0;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 600 13px/40px "Raleway", Verdana, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 19px;
+}
+.home #top_nav a{
+      color: rgb(255, 255, 255);
+      opacity:50%;
+}
+
+#top_nav a.current {
+color: #363948;
+}
+
+#wgh_app_login {
+    color: rgb(54, 57, 69);
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    text-align: right;
+    top: 63px;
+    vertical-align: top;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 18px/40px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}/*#wgh_app_login*/
+
+
+#signup {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 40px;
+    left: 105px;
+    max-width: 260px;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 58px;
+    z-index: 0;
+    background: rgb(70, 0, 50) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 600 18px/40px "Raleway", Verdana, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 2px 26px;
+    transition: background-color 0.17s ease 0s;
+}/*#signup*/
+
+#FORM_17 {
+    color: rgb(54, 57, 69);
+    display: inline-block;
+    height: 40px;
+    left: -119px;
+    position: relative;
+    text-align: right;
+    vertical-align: top;
+    width: 42px;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 18px/40px "Raleway", Verdana, sans-serif;
+    margin: 0px 0px 0px 32px;
+    outline: rgb(54, 57, 69) none 0px;
+    padding: 2px 6px;
+}/*#FORM_17*/
+
+#wgh_logo_wrapper {
+    color: rgb(54, 57, 69);
+    display: inline-block;
+    height: 90px;
+    text-align: left;
+    vertical-align: top;
+    width: 226px;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 17px/90px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+    float:left;
+}
+
+#wgh_subnav {
+    color: rgb(54, 57, 69);
+    display: inline-block;
+    height: 90px;
+    text-align: left;
+    vertical-align: top;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 17px/90px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}
+
+#wgh_section_product {
+    color: rgb(54, 57, 69);
+    height: 90px;
+    text-align: left;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 17px/90px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+}
+
+#wgh_section_product a {
+    color: rgb(54, 57, 69);
+    display: inline-block;
+    height: 90px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 67px;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal 600 18px/90px "Raleway", Verdana, sans-serif;
+    outline: rgb(54, 57, 69) none 0px;
+    padding: 0px 31px;
+}
+video#mediaElement {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+
+.camera {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  background: #fff;
+  margin: 15px;
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  border-radius: 20%;
+  position: relative;
+  -moz-box-shadow: #ddd 0px 6px 10px;
+  -webkit-box-shadow: #ddd 0px 6px 10px;
+  box-shadow: #ddd 0px 6px 10px;
+}
+.camera .one {
+  background: #afdceb;
+  width: 75%;
+  height: 75%;
+  margin-left: -37.5%;
+  margin-top: -37.5%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  -moz-box-shadow: #eee 0px 10px 10px;
+  -webkit-box-shadow: #eee 0px 10px 10px;
+  box-shadow: #eee 0px 10px 10px;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.camera .two {
+  background: #afdceb;
+  width: 70%;
+  height: 70%;
+  margin-left: -35%;
+  margin-top: -35%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.camera .three {
+  background: #86cae1;
+  width: 50%;
+  height: 50%;
+  margin-left: -25%;
+  margin-top: -25%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.camera .four {
+  background: #1a5468;
+  width: 45%;
+  height: 45%;
+  margin-left: -22.5%;
+  margin-top: -22.5%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.camera .five {
+  background: #154453;
+  width: 30%;
+  height: 30%;
+  margin-left: -15%;
+  margin-top: -15%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.camera .six {
+  background: #174a5b;
+  width: 28.75%;
+  height: 28.75%;
+  margin-left: -14.375%;
+  margin-top: -14.375%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.camera .seven {
+  background: #0b222a;
+  width: 17.5%;
+  height: 17.5%;
+  margin-left: -8.75%;
+  margin-top: -8.75%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.camera .eight {
+  background: #5db8d7;
+  width: 1.5%;
+  height: 1.5%;
+  margin-left: -0.75%;
+  margin-top: -0.75%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  top: 51%;
+  left: 45%;
+}
+.camera .nine {
+  background: #1f657c;
+  width: 4%;
+  height: 4%;
+  margin-left: -2%;
+  margin-top: -2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  top: 48%;
+  left: 54%;
+}
+.camera .ten {
+  background: #1f657c;
+  width: 4%;
+  height: 4%;
+  margin-left: -2%;
+  margin-top: -2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #ca0000;
+  top: 89%;
+  left: 89%;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.camera .line {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: 90%;
+  width: 40%;
+  margin-top: 20%;
+  margin-left: 18%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 10;
+  -moz-transition-property: margin-top, margin-left;
+  -o-transition-property: margin-top, margin-left;
+  -webkit-transition-property: margin-top, margin-left;
+  transition-property: margin-top, margin-left;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.camera .circle {
+  -moz-border-radius: 400px;
+  -webkit-border-radius: 400px;
+  border-radius: 400px;
+}
+.camera:hover {
+  -moz-box-shadow: #ddd 6px 0px 10px;
+  -webkit-box-shadow: #ddd 6px 0px 10px;
+  box-shadow: #ddd 6px 0px 10px;
+}
+.camera:hover .one {
+  background: #afdceb;
+  width: 82%;
+  height: 82%;
+  margin-left: -41%;
+  margin-top: -41%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  -moz-box-shadow: #eee 10px 0px 10px;
+  -webkit-box-shadow: #eee 10px 0px 10px;
+  box-shadow: #eee 10px 0px 10px;
+}
+.camera:hover .five {
+  background: #1a5468;
+  width: 35%;
+  height: 35%;
+  margin-left: -17.5%;
+  margin-top: -17.5%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.camera:hover .seven {
+  background: #0b222a;
+  width: 25%;
+  height: 25%;
+  margin-left: -12.5%;
+  margin-top: -12.5%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.camera:hover .ten {
+  background: green;
+}
+.camera:hover .line {
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -10%;
+  margin-left: 47%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 10;
+}
+
+
+#textbox {
+    color: rgb(54, 57, 69);
+    height: 399px;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 80%;
+    z-index: 6;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal normal 16px/normal "Raleway";
+    outline: rgb(54, 57, 69) none 0px;
+}
+
+#textbox img{
+    max-width:60%;
+}
+
+h1{
+  color:black;
+  text-align: center;
+  width: auto;
+  font: normal 700 26px/100px 'Raleway';
+}
+
+.home h1 {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border: 0px none rgb(255, 255, 255);
+    font: italic normal 700 26px/100px 'Raleway';
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+#outerbox {
+    color: rgb(54, 57, 69);
+    height: 139px;
+    text-align: center;
+    width: 735px;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal normal 16px/normal "Raleway";
+    outline: rgb(54, 57, 69) none 0px;
+}/*#outerbox*/
+
+#innerbox {
+    color: rgb(54, 57, 69);
+    height: auto;
+    text-align: center;
+    width: auto;
+    border: 0px none rgb(54, 57, 69);
+    font: normal normal normal 16px/normal "Raleway";
+    margin: 150px auto 0px;
+    outline: rgb(54, 57, 69) none 0px;
+}/*#innerbox*/
+
+#learnmore {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    z-index: 0;
+    background: rgb(62, 169, 245) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 600 21px/normal 'Whitney A', 'Whitney B', Avenir, Helvetica, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 18px 28px 20px;
+    transition: background-color 0.17s ease-in 0s;
+}
